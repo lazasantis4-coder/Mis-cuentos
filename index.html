@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petite Histoires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://i.ibb.co/CsDRjjrW/oveja.png" alt="Oveja" class="logo">
+        <h1>Petite Histoires</h1>
+        <p>Des histoires qui enseignent, des rêves qui accompagnent</p>
+    </header>
+
+    <div class="content">
+        <div id="video-wrapper">
+            <iframe id="youtube-player" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <h2 id="titulo-historia">Selecciona un bloque para empezar</h2>
+        <p id="ensenanza-texto"></p>
+
+        <!-- Anuncio 1 -->
+        <div class="adsense-slot">Espacio para Anuncio 1</div>
+
+        <div class="menu-bloques">
+            <button onclick="cargarBloque('bloc1')">Bloc 1</button>
+            <button onclick="cargarBloque('bloc2')">Bloc 2</button>
+            <button onclick="cargarBloque('bloc3')">Bloc 3</button>
+            <button onclick="cargarBloque('bloc4')">Bloc 4</button>
+        </div>
+
+        <!-- Anuncio 2 -->
+        <div class="adsense-slot">Espacio para Anuncio 2</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
