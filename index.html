@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petite Histoires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Cabecera con tu imagen de la ovejita -->
+        <div class="app-header">
+            <img src="https://i.ibb.co/tw74FqL8/2fd8147f-303b-4161-9a1f-bdfa760b9ca0.jpg" alt="Petite Histoires" style="max-width: 200px; margin-bottom: 10px;">
+            <h1>Petite Histoires</h1>
+            <p>Des histoires qui enseignent, des rêves qui accompagnent</p>
+            <!-- Caja de compartir -->
+<div class="share-box">
+    <p> Ton application d�histoires toujours avec toi </p>
+    <p>Copie et colle ce lien pour voir tes histoires � tout moment :</p>
+    <div class="link-container">
+        <input type="text" id="myLink" value="https://mis-cuentos-vkau.vercel.app/" readonly>
+        <button onclick="copiarLink()">Copier</button>
+    </div>
+</div>
+        </div>
+
+        <!-- Anuncio inicial -->
+        <div class="adsense-slot">Annonce Initiale (Adsterra)</div>
+
+        <!-- Botones de categoría -->
+        <div class="botones">
+            <button id="btn-bloc1" onclick="renderizarBloque('bloc1')">Bloc 1 📖</button>
+            <button id="btn-bloc2" onclick="renderizarBloque('bloc2')">Bloc 2 🌿</button>
+            <button id="btn-bloc3" onclick="renderizarBloque('bloc3')">Bloc 3 🌙</button>
+            <button id="btn-bloc4" onclick="renderizarBloque('bloc4')">Bloc 4 🌈</button>
+        </div>
+
+        <!-- Contenedor donde aparecerán los videos -->
+        <div id="video-list-container"></div>
+
+        <!-- Anuncio final -->
+        <div class="adsense-slot">Annonce 2 (Adsterra)</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
