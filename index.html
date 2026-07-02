@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petite Histoires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="app-header">
+            <h1>Petite Histoires</h1>
+            <p>Des histoires qui enseignent, des rêves qui accompagnent</p>
+        </div>
+
+        <!-- Espacio para el anuncio inicial -->
+        <div class="adsense-slot">Annonce Initiale (Adsterra)</div>
+
+        <!-- Botones de categoría -->
+        <div class="category-buttons">
+            <button onclick="renderizarBloque('bloc1')">Bloc 1 📖</button>
+            <button onclick="renderizarBloque('bloc2')">Bloc 2 🌿</button>
+            <button onclick="renderizarBloque('bloc3')">Bloc 3 🌙</button>
+            <button onclick="renderizarBloque('bloc4')">Bloc 4 🌈</button>
+        </div>
+
+        <!-- Contenedor donde aparecerán los videos -->
+        <div id="video-list-container"></div>
+
+        <!-- Espacio para el segundo anuncio -->
+        <div class="adsense-slot">Annonce 2 (Adsterra)</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
