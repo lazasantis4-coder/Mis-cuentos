@@ -1,0 +1,19 @@
+{
+  "name": "Petite Histoires",
+  "short_name": "Petite Histoires",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#A3B18A",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/5CPkknS/file-00000000d7d8720c96055738a088c8f9.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/5CPkknS/file-00000000d7d8720c96055738a088c8f9.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
