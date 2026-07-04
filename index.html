@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#A3B18A">
+    <title>Petite Histoires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="app-header">
+            <img src="https://i.ibb.co/5CPkknS/file-00000000d7d8720c96055738a088c8f9.png" alt="Petite Histoires" style="width: 100%; max-width: 500px; border-radius: 20px; margin-bottom: 10px;">
+            
+            <button id="btnInstalar" style="display:none; padding: 15px 30px; background-color: #A3B18A; color: white; border: none; border-radius: 25px; font-size: 16px; cursor: pointer; margin: 20px auto;">
+                Installer l'application 📲
+            </button>
+        </div>
+
+        <div class="adsense-slot">Annonce Initiale (Adsterra)</div>
+
+        <div class="botones">
+            <button id="btn-bloc1" onclick="renderizarBloque('bloc1')">Bloc 1 📖</button>
+            <button id="btn-bloc2" onclick="renderizarBloque('bloc2')">Bloc 2 📖</button>
+            <button id="btn-bloc3" onclick="renderizarBloque('bloc3')">Bloc 3 📖</button>
+            <button id="btn-bloc4" onclick="renderizarBloque('bloc4')">Bloc 4 📖</button>
+        </div>
+
+        <div id="video-list-container"></div>
+
+        <div class="adsense-slot">Annonce 2 (Adsterra)</div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+      }
+    </script>
+</body>
+</html>
